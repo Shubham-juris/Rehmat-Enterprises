@@ -4,7 +4,7 @@ import heroVideo from "../../assets/home/hero.mp4";
 
 const HomeHero = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-screen mt-15 flex items-center justify-center overflow-hidden">
 
       {/* Background Video */}
       <video
