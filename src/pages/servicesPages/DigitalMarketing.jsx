@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import heroVideo from "../../assets/home/hero.mp4";
-import heroImg from "../../assets/about/hero.webp";
+import heroImg from "../../assets/services/img4.jpg";
 
 const DigitalMarketing = () => {
   return (

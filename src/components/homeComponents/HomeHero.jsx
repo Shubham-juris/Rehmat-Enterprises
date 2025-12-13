@@ -54,13 +54,6 @@ const HomeHero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className="flex justify-center space-x-4 mt-4"
         >
-          <a
-            href="/services"
-            className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold 
-            hover:bg-green-700 transition shadow-lg"
-          >
-            Explore Services
-          </a>
 
           <a
             href="/contact"
