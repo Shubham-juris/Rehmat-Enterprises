@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import heroVideo from "../../assets/home/hero.mp4";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
@@ -55,13 +56,13 @@ const HomeHero = () => {
           className="flex justify-center space-x-4 mt-4"
         >
 
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="px-6 py-3 border border-green-400 text-green-400 rounded-lg 
             font-semibold hover:bg-green-500 hover:text-white transition shadow-lg"
           >
             Contact Us
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
